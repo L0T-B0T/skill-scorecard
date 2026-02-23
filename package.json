@@ -1,0 +1,27 @@
+{
+  "name": "skill-scorecard",
+  "version": "0.1.0",
+  "description": "Quality and security scorecard for OpenClaw skills",
+  "main": "src/cli.js",
+  "bin": {
+    "skill-scorecard": "./src/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "echo \"Tests coming soon\""
+  },
+  "keywords": [
+    "openclaw",
+    "skills",
+    "security",
+    "quality"
+  ],
+  "author": "Lotbot",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "skill": "weather",
+  "path": "/Users/lotbot/.npm-global/lib/node_modules/openclaw/skills/weather",
+  "scannedAt": "2026-02-23T07:03:23.000Z",
+  "scanDurationMs": 1531,
+  "overallScore": 53,
+  "maxScore": 100,
+  "grade": "F",
+  "breakdown": {
+    "security": {
+      "score": 30,
+      "max": 40,
+      "details": {
+        "clawdex": {
+          "status": "unknown",
+          "score": 10,
+          "max": 20
+        },
+        "cisco": {
+          "score": 20,
+          "max": 20,
+          "issues": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+          },
+          "scannerAvailable": true
+        }
+      }
+    },
+    "documentation": {
+      "score": 13,
+      "max": 20,
+      "details": {
+        "skillMd": {
+          "exists": true,
+          "length": 432,
+          "sufficient": false
+        },
+        "readmeMd": {
+          "exists": false,
+          "length": 0,
+          "sufficient": false
+        },
+        "examples": true,
+        "references": false
+      }
+    },
+    "codeQuality": {
+      "score": 10,
+      "max": 20,
+      "details": {
+        "analyzedFiles": 1,
+        "totalFiles": 1,
+        "secrets": {
+          "found": 0,
+          "clean": true
+        },
+        "errorHandling": {
+          "filesWithHandling": 0,
+          "ratio": 0
+        },
+        "comments": {
+          "averageDensity": 4.2
+        },
+        "naming": {
+          "filesWithGoodNaming": 0,
+          "ratio": 0
+        }
+      }
+    },
+    "maintenance": {
+      "score": 0,
+      "max": 20,
+      "details": {
+        "git": {
+          "exists": false
+        },
+        "lastCommit": {
+          "exists": false
+        },
+        "version": {
+          "exists": false
+        }
+      }
+    }
+  },
+  "recommendations": [
+    "Expand SKILL.md content (currently < 500 characters)",
+    "Add references section with related links/resources",
+    "Improve error handling coverage in code",
+    "Add more code comments and documentation",
+    "Initialize git repository for version control",
+    "Add version information (package.json, CHANGELOG, or VERSION file)"
+  ]
+}
